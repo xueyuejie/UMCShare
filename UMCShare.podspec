@@ -15,9 +15,16 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "filename"
-  spec.version      = "0.0.1"
+  spec.name         = "UMCShare"
+  spec.version      = "6.9.7"
   spec.summary      = "A short description of filename."
+  spec.summary      = "A Library for iOS to use for RSA encryptor."
+  spec.homepage     = "https://github.com/xueyuejie/UMCShare"
+  spec.license      = "MIT"
+  spec.author       = { "scottzg" => "" }
+  spec.source       = { :git => "https://github.com/xueyuejie/UMCShare.git", :tag => "#{spec.version}" }
+  spec.source_files  = "UMCShare/*.{h,m}"
+
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
